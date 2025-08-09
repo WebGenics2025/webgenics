@@ -463,3 +463,110 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 900px) {
+  .navbar {
+    padding: 14px 20px;
+    flex-wrap: wrap;
+  }
+  .navbar ul {
+    flex-direction: column;
+    gap: 18px;
+    width: 100%;
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+  .navbar a {
+    font-size: 1rem;
+  }
+}
+
+/* Welcome Section */
+@media (max-width: 768px) {
+  .welcome {
+    padding: 80px 20px;
+    border-radius: 20px;
+  }
+  .welcome h1 {
+    font-size: 2.4rem;
+  }
+  .slogan {
+    font-size: 1.2rem;
+  }
+  .welcome p {
+    font-size: 1rem;
+  }
+  .welcome-text-box {
+    padding: 30px 20px;
+  }
+}
+
+/* Services Section */
+@media (max-width: 1100px) {
+  .services-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+}
+@media (max-width: 768px) {
+  .services-container {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+  .service-card img {
+    width: 100%;
+    max-width: 220px;
+  }
+}
+
+/* Team Section */
+@media (max-width: 768px) {
+  .team-card {
+    width: 100%;
+    max-width: 320px;
+  }
+  .team-container {
+    gap: 20px;
+  }
+}
+
+/* Contact Form */
+@media (max-width: 768px) {
+  .contact-form {
+    padding: 30px 20px;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 1rem;
+  }
+  .contact-form button {
+    font-size: 1rem;
+    padding: 12px;
+  }
+}
+
+/* Typography scaling for small devices */
+@media (max-width: 480px) {
+  h2 {
+    font-size: 2rem;
+  }
+  .welcome h1 {
+    font-size: 2rem;
+  }
+  .slogan {
+    font-size: 1rem;
+  }
+  p, .service-card p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Buttons: Full-width on small devices */
+@media (max-width: 600px) {
+  .btn,
+  .service-card .btn-cart {
+    width: 100%;
+    text-align: center;
+  }
+}
+

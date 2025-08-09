@@ -570,3 +570,34 @@ footer {
   }
 }
 
+/* Navbar container */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping */
+  justify-content: center; /* Center horizontally */
+}
+
+/* Navbar items */
+nav ul li {
+  margin: 0 10px;
+}
+
+/* Navbar links */
+nav ul li a {
+  text-decoration: none;
+  color: white; /* Change as needed */
+  font-size: 16px;
+}
+
+/* For mobile view adjustments */
+@media (max-width: 600px) {
+  nav ul li a {
+    font-size: 14px; /* Smaller font for mobile */
+    padding: 5px;    /* Less padding for mobile */
+  }
+}
+
+

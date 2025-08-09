@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Freelancer Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    /* Notification popup styles */
+    #notification {
+      display: none;
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background-color: #004080;
+      color: white;
+      padding: 16px 24px;
+      border-radius: 8px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+      z-index: 9999;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      user-select: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <img src="images/logo.png" alt="WebGenics Logo" class="logo"/>
+    <ul>
+      <li><a href="#welcome">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Welcome -->
+<section id="welcome" class="section welcome">
+  <div class="welcome-text-box">
+    <h1>Welcome to <span class="highlight">WebGenics</span></h1>
+    <p class="slogan">Smart. Simple. AI-powered.</p>
+    
+    <p>
+      We’re a passionate team building smart AI solutions for real-world problems.
+    </p>
+
+    <p>
+      From predictive tools to intelligent web systems, we bring future-ready technology to your fingertips.
+    </p>
+
+    <div class="welcome-buttons">
+      <a href="#services" class="btn btn-primary">Explore Our Work</a>
+      <a href="#contact" class="btn btn-outline">Get in Touch</a>
+    </div>
+  </div>
+</section>
+
+<!-- Services -->
+<section id="services" class="section">
+  <h2>Our Services</h2>
+  <div class="services-container">
+
+    <!-- AI & Machine Learning -->
+    <div class="service-card">
+      <img src="images/ai-ml-icon.png" alt="AI & ML" />
+      <h3>AI & Machine Learning</h3>
+      <p>
+        Model training & fine-tuning (GPT, YOLO, BERT), predictive analytics, sentiment analysis, chatbots, 
+        computer vision (object detection, face recognition), AI automation scripts.
+      </p>
+    </div>
+
+    <!-- Data Science & Analytics -->
+    <div class="service-card">
+      <img src="images/data-science-icon.png" alt="Data Science" />
+      <h3>Data Science & Analytics</h3>
+      <p>
+        Data cleaning & preprocessing, data visualization dashboards (Power BI, Tableau), 
+        exploratory data analysis (EDA), data annotation & labeling for AI projects.
+      </p>
+    </div>
+
+    <!-- Web Development -->
+    <div class="service-card">
+      <img src="images/web-dev-icon.png" alt="Web Development" />
+      <h3>Web Development</h3>
+      <p>
+        Full-stack websites (React, Flask/Django), portfolio & business websites, 
+        e-commerce solutions, AI-integrated web apps (dashboards, recommendation systems).
+      </p>
+    </div>
+
+    <!-- Blogging & Content Creation -->
+    <div class="service-card">
+      <img src="images/blogging-icon.png" alt="Blogging" />
+      <h3>Blogging & Content Creation</h3>
+      <p>
+        Technical blogging on AI/ML, educational tutorials, SEO-optimized content writing, 
+        explainer videos/scripts for tech concepts.
+      </p>
+    </div>
+
+    <!-- Training & Tutoring -->
+    <div class="service-card">
+      <img src="images/training-icon.png" alt="Training" />
+      <h3>Training & Tutoring</h3>
+      <p>
+        Online AI/ML courses, Python programming lessons, academic project guidance, 
+        hackathon mentorship, and AI tools workshops.
+      </p>
+    </div>
+
+    <!-- Automation & Scripting -->
+    <div class="service-card">
+      <img src="images/automation-icon.png" alt="Automation" />
+      <h3>Automation & Scripting</h3>
+      <p>
+        Python automation scripts, web scraping, data extraction pipelines, 
+        API integration (OpenAI, HuggingFace, TensorFlow Serving), chatbot development.
+      </p>
+    </div>
+
+    <!-- Creative & Design -->
+    <div class="service-card">
+      <img src="images/design-icon.png" alt="Design" />
+      <h3>Creative & Design</h3>
+      <p>
+        AI-generated art (DALL·E, Stable Diffusion), UI/UX design, branding & logos, 
+        presentation design, resume optimization for tech roles.
+      </p>
+    </div>
+
+    <!-- Niche Combos -->
+    <div class="service-card">
+      <img src="images/niche-combo-icon.png" alt="Niche Combos" />
+      <h3>Niche Combinations</h3>
+      <p>
+        AI + Web = Smart Web Apps, e-commerce with AI recommendations, 
+        EdTech platforms with AI tutors, end-to-end LMS development.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- OUR TEAM SECTION -->
+  <section class="section team-section" id="team">
+    <h2>Our Team</h2>
+    <div class="team-container">
+
+      
+      <div class="team-card">
+        <img src="images/madhu.jpeg" alt="Madhumitha">
+        <h2>Madhu Mitha</h2>
+        <h4>Frontend Developer</h4>
+        <a href="https://www.linkedin.com/in/g-madhu-mitha-aa45b22a2" target="_blank">LinkedIn</a>
+      </div>
+
+      
+      <div class="team-card">
+        <img src="images/mani.jpeg" alt="Mani Shankar Raju">
+        <h2>Mani Shankar Raju</h2>
+        <h4>UI/UX Designer</h4>
+        <a href="https://www.linkedin.com/in/mani-shankar-raju-r-6465b12a2" target="_blank">LinkedIn</a>
+      </div>
+
+      
+      <div class="team-card">
+        <img src="https://ui-avatars.com/api/?name=Ravi+Kumar&background=3b82f6&color=fff" alt="Mervin Anto Santhosh">
+        <h2>Mervin Anto Santhosh</h2>
+        <h4>SEO & Marketing Specialist</h4>
+        <a href="https://www.linkedin.com/in/mervin-anto-santhosh-a-b7a4152a2/" target="_blank">LinkedIn</a>
+      </div>
+
+      
+      <div class="team-card">
+        <img src="images/marce.jpeg" alt="Marcellus Jesudasan">
+        <h2>Marcellus Jesudasan</h2>
+        <h4>Backend Developer</h4>
+        <a href="http://linkedin.com/in/marcellus-jesudasan-47a5b22a2" target="_blank">LinkedIn</a>
+      </div>
+
+    </div>
+  </section>
+
+<!-- Contact -->
+<section id="contact" class="section contact">
+  <h2>Contact Us</h2>
+  <form id="contactForm" class="contact-form">
+    <input type="text" id="name" name="name" placeholder="Your Name" required/>
+    <input type="email" id="email" name="email" placeholder="Your Email" required/>
+    <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+  <p class="email-info">You can also reach us at: <a href="mailto:webgenics2025@gmail.com">webgenics2025@gmail.com</a></p>
+</section>
+
+<!-- Notification Popup -->
+<div id="notification"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js" ></script>
+<script src="./mail.js"></script>
+
+<footer>
+  <p>&copy; 2025 WebGenics. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
